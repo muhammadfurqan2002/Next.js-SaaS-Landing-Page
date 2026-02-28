@@ -1,0 +1,28 @@
+import logoImage from "@/assets/images/logo.svg";
+import { nav } from "framer-motion/client";
+import Image from "next/image";
+const footerLinks = [
+    { href: "#", label: "Contact" },
+    { href: "#", label: "Privacy Policy" },
+    { href: "#", label: "Terms & Conditions" },
+];
+
+export default function Footer() {
+    return <section className="py-16">
+        <div className="container">
+            <div className="flex flex-col gap-6 md:flex-row justify-between items-center">
+
+                <div>
+                    <Image src={logoImage} alt="Logo" />
+                </div>
+                <div>
+                    <nav className="flex gap-6">
+                        {footerLinks.map((link, index) => (
+                            <a key={index}  className="text-white/50 text-sm" href={link.href}>{link.label}</a>
+                        ))}
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>;
+}
