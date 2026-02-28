@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Modern Design Tool Landing Page
 
-## Getting Started
+A sleek, responsive, and animated landing page for a modern design tool (named "Layers"). Built with Next.js, this project leverages the power of Tailwind CSS for styling and Framer Motion for complex, high-performance animations, delivering an engaging user experience right from the first fold.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Next.js 14 App Router:** Utilizes the latest Next.js App Router for optimal performance and SEO.
+- **Framer Motion Animations:** Smooth, performant scroll animations, draggable elements, and entry effects.
+- **Tailwind CSS Styling:** Quick, responsive, and highly customizable UI design using utility-first CSS.
+- **Modern UI/UX Elements:** Features glassmorphism, gradient accents, interactive pointers, and responsive layouts.
+- **Component-Driven Architecture:** Code is organized into reusable sections (Hero, Features, Integrations, FAQs, etc.).
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js (v14)](https://nextjs.org/)
+- **Library:** [React (v18)](https://react.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Utilities:** `tailwind-merge`, `class-variance-authority`
+- **Language:** TypeScript
+
+## 📁 Project Structure
+
+```text
+src/
+├── app/          # Next.js App Router layout and pages
+├── assets/       # Static images and icons
+├── components/   # Reusable UI components (Buttons, Pointers, etc.)
+└── sections/     # Modular landing page sections (Hero, Navbar, Features, etc.)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏃‍♂️ Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Ensure you have Node.js (version 18 or higher) installed on your machine.
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository** (if applicable):
+   ```bash
+   git clone <your-repository-url>
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Navigate to the project directory:**
+   ```bash
+   cd design-tool-landing-page
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Install the dependencies:**
+   Using npm:
+   ```bash
+   npm install
+   ```
+   Or using yarn/pnpm:
+   ```bash
+   yarn install
+   # or
+   pnpm install
+   ```
 
-## Deploy on Vercel
+### Running the Development Server
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Start the application in development mode:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see the landing page in action. The page will auto-update as you edit the files.
+
+## 📝 Available Scripts
+
+- `npm run dev` - Starts the development server.
+- `npm run build` - Builds the app for production.
+- `npm run start` - Runs the built app in production mode.
+- `npm run lint` - Runs ESLint to catch formatting & code quality issues.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
